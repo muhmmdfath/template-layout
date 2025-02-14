@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Layout</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #e6f7f9;
+      }
+      .masonry {
+        column-count: 4; /* Jumlah kolom */
+        column-gap: 15px; /* Jarak antar kolom */
+      }
+      .card {
+        display: inline-block; /* Supaya tiap card tidak memanjang ke seluruh kolom */
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        margin-bottom: 15px; /* Jarak antar card */
+        padding: 15px;
+      }
+      /* Kustom tinggi card */
+      .card-small {
+        height: 150px;
+      }
+      .card-medium {
+        height: 250px;
+      }
+      .card-large {
+        height: 350px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container py-4">
+      <div class="masonry">
+        <div class="card card-large">Chart 1</div>
+        <div class="card card-small">Chart 2</div>
+        <div class="card card-medium">Calendar</div>
+        <div class="card card-small">Search Bar</div>
+        <div class="card card-small">Stats 1</div>
+        <div class="card card-small">Stats 2</div>
+        <div class="card card-large">Donut Chart</div>
+        <div class="card card-medium">Bar Chart</div>
+        <div class="card card-large">Line Chart</div>
+        <div class="card card-small">Small Card</div>
+        <div class="card card-medium">Chart Timeline</div>
+        <div class="card card-medium">Small Stats</div>
+        <div class="card card-small">Adipiscing</div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
