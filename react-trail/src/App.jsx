@@ -46,7 +46,7 @@ const App = () => {
 
       // call google api to fetch user profile
       const res = await axios.get(
-        'https://www.googleapis.com/oauth2/v1/userinfo',
+        'https://www.googleapis.com/oauth2/v2/userinfo',
         {
           headers: {
             Authorization: `Bearer ${token}`,
