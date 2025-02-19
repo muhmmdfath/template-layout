@@ -5,8 +5,15 @@ import Button, {
   ButtonDenganChildrenProps,
   ButtonProps,
 } from "./ButtonComponent";
+import Paragraph from "./Paragraph";
+import List from "./List";
 
 export default function App() {
+  const data = [
+    { name: "uhuyy uhuyy", age: 22 },
+    { name: "yoii", age: 21 },
+  ];
+
   function onClickTombolQue() {
     console.log("tombol que diklik");
   }
@@ -24,6 +31,10 @@ export default function App() {
         <ButtonDenganChildrenProps>
           <div>Test</div>
         </ButtonDenganChildrenProps>
+        <Paragraph nama="Muhammad Fatih" jabatan="nganggur dlu">
+          <div>uhuyy</div>
+        </Paragraph>
+        <List data={data} />
       </header>
     </div>
   );
