@@ -4,9 +4,9 @@ import { render } from "@testing-library/react";
 import Button, {
   ButtonDenganChildrenProps,
   ButtonProps,
-} from "./ButtonComponent";
-import Paragraph from "./Paragraph";
-import List from "./List";
+} from "./shared-component/ButtonComponent";
+import Paragraph from "./shared-component/Paragraph";
+import List from "./shared-component/List";
 
 export default function App() {
   const data = [
