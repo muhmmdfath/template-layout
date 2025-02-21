@@ -52,6 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const sidebarArrow = document.getElementById('sidebarArrow');
   const arrowIcon = document.getElementById('arrowIcon');
   const navbar = document.querySelector('nav');
+  const hidenav = document.getElementById('hide')
   const userMenuButton = document.getElementById('userMenuButton');
   const userDropdown = document.getElementById('userDropdown');
 
@@ -64,6 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
       sidebar.classList.add('sidebar-expanded');
       sidebar.classList.remove('w-16');
       sidebar.classList.add('w-64');
+      hidenav.classList.add('hide');
       mainContent.style.marginLeft = '17rem';
       navbar.style.marginLeft = '17rem';
       arrowIcon.innerHTML =
@@ -71,6 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
       // Collapse sidebar
       sidebar.classList.remove('sidebar-expanded');
+      hidenav.classList.remove('hide');
       sidebar.classList.remove('w-64');
       sidebar.classList.add('w-16');
       mainContent.style.marginLeft = '5rem';

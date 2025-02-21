@@ -89,3 +89,8 @@
   background-color: #f0f4ff;
 }
 
+@media (max-width: 768px) {
+  .hide {
+    display: none;
+  }
+}

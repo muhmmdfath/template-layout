@@ -1,10 +1,10 @@
-<nav class="bg-white m-2 rounded-lg shadow-sm fixed top-0 right-0 left-0 z-10"
+<nav id="navbar" class="bg-white m-2 rounded-lg shadow-sm fixed top-0 right-0 left-0 z-10"
   style="margin-left: 5rem; transition: margin-left 0.3s ease;">
   <div class="max-w-full mx-auto px-4">
     <div class="flex justify-end h-16">
       <div class="ml-3 mr-5 flex items-center">
         <button id="userMenuButton" class="flex items-center gap-3 bg-white rounded-lg p-2 hover:bg-gray-50">
-          <span class="text-sm text-gray-700">John Doe</span>
+          <span id="hide" class="text-sm text-gray-700">John Doe</span>
           <i class="fa-regular fa-circle-user fa-2x"></i>
         </button>
         <!-- Dropdown Menu -->
