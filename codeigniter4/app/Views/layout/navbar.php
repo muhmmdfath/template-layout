@@ -2,8 +2,7 @@
   style="margin-left: 5rem; transition: margin-left 0.3s ease;">
   <div class="max-w-full mx-auto px-4">
     <div class="flex justify-end h-16">
-      <!-- User Profile Dropdown -->
-      <div class="relative ml-3 mr-5 flex items-center">
+      <div class="ml-3 mr-5 flex items-center">
         <button id="userMenuButton" class="flex items-center gap-3 bg-white rounded-lg p-2 hover:bg-gray-50">
           <span class="text-sm text-gray-700">John Doe</span>
           <i class="fa-regular fa-circle-user fa-2x"></i>
