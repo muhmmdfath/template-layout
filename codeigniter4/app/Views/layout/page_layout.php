@@ -19,13 +19,8 @@
     <?= $this->include('layout/sidebar');?>
 
     <!-- Main Content -->
-    <div id="mainContent" class="ml-20 gap-4 mt-20">
-      <!-- First Column -->
-      <!-- <div class="col-span-1 space-y-4">
-        <div class="bg-white p-4 rounded-xl shadow-sm h-64"> -->
+    <div id="mainContent" class="ml-20 gap-6 mt-20">
       <?= $this->renderSection('content') ?>
-      <!-- </div>
-      </div> -->
     </div>
   </div>
 
