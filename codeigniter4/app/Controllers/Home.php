@@ -13,8 +13,8 @@ class Home extends BaseController
     {
         return view('pages/dashboard');
     }
-    public function messages(): string
+    public function input(): string
     {
-        return view('pages/dashboard');
+        return view('pages/input');
     }
 }

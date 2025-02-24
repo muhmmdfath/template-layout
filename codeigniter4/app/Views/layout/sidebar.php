@@ -24,7 +24,7 @@
     </a>
 
 
-    <a href="<?= base_url('messages') ?>"
+    <a href="<?= base_url('input') ?>"
       class="menu-item flex items-center w-full bg-white/10 rounded-lg p-2 hover:bg-teal-400 cursor-pointer <?= ($_SERVER['REQUEST_URI'] == '/messages') ? 'active' : '' ?>">
       <svg class="w-6 h-6 text-white flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
